@@ -11,7 +11,6 @@ public class SatelliteDriver {
         dibit.setY(0);
         dibit.setVx(0);
         dibit.setVy(7349);
-        dibit.simulate(5);
         
         for (int x = 1; x < 115; x++) {
             dibit.simulate(x);
